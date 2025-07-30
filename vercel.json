@@ -1,5 +1,7 @@
 {
   "name": "cyberpunk-portfolio",
+  "buildCommand": "echo 'No build needed - static files'",
+  "outputDirectory": ".",
   "rewrites": [
     {
       "source": "/resume",
