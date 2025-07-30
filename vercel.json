@@ -68,6 +68,5 @@
   ],
   "cleanUrls": true,
   "trailingSlash": false,
-  "functions": {},
   "regions": ["iad1"]
 }
