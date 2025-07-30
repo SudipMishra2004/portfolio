@@ -1,24 +1,13 @@
 {
-  "version": 2,
   "name": "cyberpunk-portfolio",
-  "builds": [
+  "rewrites": [
     {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/resume",
-      "dest": "/cv_sudip_2025.pdf"
+      "source": "/resume",
+      "destination": "/cv_sudip_2025.pdf"
     },
     {
-      "src": "/cv",
-      "dest": "/cv_sudip_2025.pdf"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/cv",
+      "destination": "/cv_sudip_2025.pdf"
     }
   ],
   "headers": [
