@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+
+# Allow access to CSS and JS files
+Allow: /*.css$
+Allow: /*.js$
+
+# Allow access to images
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Allow access to PDF files (resume)
+Allow: /*.pdf$
+
+# Disallow test and debug files
+Disallow: /test_*
+Disallow: /debug*
+Disallow: /.zencoder/
+
+# Disallow development files
+Disallow: /*.md$
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /.gitignore
+Disallow: /deploy.*
+Disallow: /firebase.json
+Disallow: /netlify.toml
+Disallow: /vercel.json
+
+# Sitemap location
+Sitemap: https://your-portfolio-domain.com/sitemap.xml
